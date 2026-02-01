@@ -1,0 +1,32 @@
+/* Quote box styled like Bonjourr's To-Do list */
+#quote {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.8em;
+  padding: 14px 20px;
+  margin: 18px auto;
+  max-width: 650px;
+
+  /* Frosted glass effect */
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Author line smaller, italic, highlighted subtly */
+#quote-author {
+  display: block;
+  margin-top: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.75em;
+  font-style: italic;
+  opacity: 0.9;
+  text-decoration: underline;
+}
