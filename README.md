@@ -1,15 +1,45 @@
 # bonjourr-quote-glassmorphism
-Custom Bonjourr CSS that styles the quote widget to match native UI cards. Uses blur based glassmorphism, transparent layers, soft borders, and shadows. Hooks into Bonjourr IDs only. Lightweight, CSS only, and visually consistent with the To Do list.
+Custom Bonjourr CSS that styles the quote widget to match native UI cards. Uses blur based glassmorphism, transparent layers, soft borders, and shadows. Hooks into Bonjourr IDs only. Lightweight, CSS only, and visually consistent with the Notes module.
 
-# Bonjourr Custom Quote Box CSS
+# Usage
+🔗 **CSS Source File**  
+https://github.com/sarang-cmd/bonjourr-quote-glassmorphism/blob/main/custom-quote-box.css
 
-Short technical README for a custom Bonjourr quote widget.
-This file explains how the CSS works and why specific lines exist.
-The styling matches the Bonjourr To Do card using glassmorphism.
+---
+## ✅ How to apply the quote box style in Bonjourr.
 
-Paste the CSS into Bonjourr
-Settings
-Custom styles
+1. Open this file  
+https://github.com/sarang-cmd/bonjourr-quote-glassmorphism/blob/main/custom-quote-box.css
+
+2. Copy the full CSS code 📋
+
+3. Open Bonjourr → Settings → General and **enable all settings** ⚙️
+
+<img src="screenshots/all-settings1.png" alt="Enable all settings option" width="400">
+
+4. Open Bonjourr → Settings → Custom styles 🎨
+
+<img src="screenshots/custom-css.png" alt="Custom styles section displayed" width="400">
+
+5. Paste the CSS into the box  
+
+<img src="screenshots/paste-css.png" alt="Paste CSS into Box" width="400">
+
+6. Reload Tab 🔄
+
+7. The quote widget updates instantly ✨
+
+<img src="screenshots/changes-applied1.png" alt="Changes Applied" width="400">
+
+*No extensions. No scripts. CSS only.*
+
+---
+
+## Notes
+
+- Works with Bonjourr default quote module 
+- Matches Notes module glass style 
+- Safe on light and dark wallpapers 
 
 ---
 
@@ -31,7 +61,7 @@ All behavior is controlled through CSS.
 ## Full CSS
 
 ```css
-/* Quote box styled like Bonjourr's To-Do list */
+/* Quote box styled like Bonjourr's Notes module */
 #quote {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -102,7 +132,7 @@ Max width limits line length on large screens.
 
 ## Glassmorphism Effect
 
-This section mimics the Bonjourr To Do list.
+This section mimics the Bonjourr Notes module.
 
 ```css
 background: rgba(255, 255, 255, 0.08);
@@ -118,7 +148,7 @@ backdrop-filter: blur(18px);
 
 The blur samples pixels behind the element.
 Safari requires the prefixed version.
-The blur value matches Bonjourr cards.
+The blur value matches Bonjourr Notes cards.
 
 ```css
 border: 1px solid rgba(255, 255, 255, 0.15);
@@ -174,14 +204,13 @@ text-decoration: underline;
 ```
 
 Optional emphasis.
-Useful for minimalist setups.
 
 ---
 
 ## Image Caption Ideas
 
 - Quote box with glass blur over wallpaper
-- Visual match with Bonjourr To Do card
+- Visual match with Bonjourr Notes module
 - Blur clarity on bright background
 - Blur clarity on dark background
 - Typography hierarchy between quote and author
